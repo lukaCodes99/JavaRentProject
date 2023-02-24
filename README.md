@@ -1,6 +1,7 @@
 # JavaRentProject
 My first app that I made start to finish all on my own. It uses Java and JavaFX. Check README for more info!
-As the author of this Java and H2-based Rent-a-Car application, I am pleased to present a software solution for managing vehicle rentals. This comprehensive app includes many features to help users manage their rental business with ease. For a full demonstration of the app's functionality, interested parties can contact the author for a database export.
+As the author of this Java and H2-based Rent-a-Car application, I am pleased to present a software solution for managing vehicle rentals. This app includes many features to help users manage their rental business with ease. For a full demonstration of the app's functionality, interested parties can contact the author for a database export.
+The app is far from perfect, but I am proud as it is my very first comprehensive app.
 
 To ensure data security, the app uses SHA-256 password hashing. Users can add new vehicles to the database, as well as make reservations, which are stored in a separate table and connected via a unique ID. The app includes two roles, an admin who can add new vehicles and users and update registration expiry dates, and a user who can make reservations.
 
