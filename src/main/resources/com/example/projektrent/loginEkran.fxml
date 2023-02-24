@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projektrent.LoginController">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="291.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="22.0" layoutY="256.0" prefHeight="72.0" prefWidth="250.0" text="my Rent-a-car" textFill="WHITE">
+               <font>
+                  <Font name="Bauhaus 93" size="36.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="400.0" prefWidth="335.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+         <children>
+
+            <TextField fx:id="usernameTextField" layoutX="82.0" layoutY="181.0" prefHeight="27.0" prefWidth="177.0" promptText="Korisničko ime" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #000000;" />
+            <PasswordField fx:id="passwordField" layoutX="84.0" layoutY="229.0" prefHeight="27.0" prefWidth="177.0" promptText="Lozinka" style="-fx-background-color: transparent; -fx-border-width: 0px 0px 2px 0px; -fx-border-color: #000000;" />
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="123.0" prefHeight="38.0" prefWidth="201.0" text="Prijava Korisnika">
+               <font>
+                  <Font name="Bauhaus 93" size="24.0" />
+               </font>
+            </Label>
+            <Button layoutX="109.0" layoutY="296.0" mnemonicParsing="false" onAction="#onLoginButtonClick" prefHeight="40.0" prefWidth="91.0" style="-fx-background-color: #000000; -fx-cursor: hand;" text="Prijavi me" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
