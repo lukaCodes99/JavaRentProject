@@ -1,5 +1,5 @@
 # JavaRentProject
-My first app that I made start to finish all on my own. It uses Java and JavaFX. Check README for more info!
+My first app that I made start to finish all on my own. It uses Java and JavaFX. It is located in the master branch! Check README for more info!
 As the author of this Java and H2-based Rent-a-Car application, I am pleased to present a software solution for managing vehicle rentals. This app includes many features to help users manage their rental business with ease. For a full demonstration of the app's functionality, interested parties can contact the author for a database export.
 The app is far from perfect, but I am proud as it is my very first comprehensive app.
 
