@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projektrent.IzbornikEkranController">
+
+    <children>
+        <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="600.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Hatchback">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showHatchbackScreen" text="Pretraga" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Kombi">
+                    <items>
+                       <MenuItem mnemonicParsing="false" onAction="#showKombiScreen" text="Pretraga" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Limuzina">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#showLimuzinaScreen" text="Pretraga" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+    </children>
+
+</AnchorPane>
